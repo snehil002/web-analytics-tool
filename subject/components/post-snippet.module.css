@@ -1,0 +1,16 @@
+.snippetDiv { 
+  padding: 1rem;
+  margin: 1rem 0;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+}
+.snippetDiv > div {
+  margin: 0.3rem 0;
+}
+.metadata > span {
+  margin-right: 0.6rem;
+}
+.sep {
+  font-size: 0.2rem;
+  vertical-align: middle;
+}

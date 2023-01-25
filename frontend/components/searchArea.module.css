@@ -1,0 +1,20 @@
+.searchArea button {
+  background-color: #ebeffb;
+  border-radius: 0 0.4rem 0.4rem 0;
+  border: 1px solid #ccc;
+  color: #333;
+  font-size: 1.2rem;
+  padding: 0 1.1rem;
+}
+
+.searchArea button:hover {
+  background-color: #e0e7ff;
+}
+
+.searchArea button:focus {
+  background-color: #dbdffb;
+}
+
+.label {
+  position: absolute;
+}

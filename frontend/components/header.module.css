@@ -1,0 +1,40 @@
+.headerArea {
+  z-index: 3;
+  padding: 0.2rem 1rem;
+  background-color: lavender;
+  box-shadow: 0px 1px 8px grey;
+}
+
+.menuArea {
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 500px) {
+  .menuArea {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .searchArea {
+    width: 100%;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 900px) {
+  .menuArea {
+    width: 40%;
+  }
+  .searchArea {
+    width: 55%;
+  }
+}
+
+@media (min-width: 901px) {
+  .menuArea {
+    width: 25%;
+  }
+  .searchArea {
+    width: 40%;
+  }
+}

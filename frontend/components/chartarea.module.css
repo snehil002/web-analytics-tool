@@ -1,0 +1,43 @@
+.myChartDiv{
+  width: 100%;
+  background-color: #f7f7ff;
+  border-radius: 1rem;
+  margin: 1rem 0;
+  padding: 2rem 0;
+}
+
+.myErrorDiv {
+  text-align: center;
+  font-size: 1.4rem;
+  color: red;
+}
+
+.myChart {  
+  max-width: 70vw;
+  max-height: 80vh;
+  width: 70%;
+  display: block;
+  box-sizing: border-box;
+  margin: 0rem auto;
+}
+
+@media (max-width: 500px) {
+  .myChart {
+    max-width: 90vw;
+    width: 90%;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 900px) {
+  .myChart {
+    max-width: 80vw;
+    width: 80%;
+  }
+}
+
+@media (min-width: 901px) {
+  .myChart {
+    max-width: 70vw;
+    width: 70%;
+  }
+}

@@ -1,0 +1,22 @@
+.myNavButton {
+  background-color: transparent;
+  border-radius: 0.4rem;
+  font-size: 1.4rem;
+  border: 1px solid #ccc;
+  position: relative;
+  top: 0.15rem;
+}
+
+.myNavButton:hover {
+  background-color: #e0e7ff;
+}
+
+.myNavButton:focus {
+  background-color: #dbdffb;
+}
+
+.brandName {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: black;
+}
