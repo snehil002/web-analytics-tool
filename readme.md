@@ -1,5 +1,7 @@
 # Web Analytics Tool
 
+> See ss/ folder for screenshots
+
 ## About this project
 A Web Analytics Tool to track user behavior,  
 popularity and traffic on a website.
